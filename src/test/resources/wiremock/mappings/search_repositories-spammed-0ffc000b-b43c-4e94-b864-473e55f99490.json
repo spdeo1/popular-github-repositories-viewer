@@ -1,0 +1,14 @@
+{
+  "id" : "0ffc000b-b43c-4e94-b864-473e55f99490",
+  "name" : "search_repositories",
+  "request" : {
+    "url" : "/search/repositories?q=stars%3A%3E0%20created%3A%3E%3D1991-12-16&sort=stars&order=desc&per_page=10",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 422
+  },
+  "uuid" : "0ffc000b-b43c-4e94-b864-473e55f99488",
+  "persistent" : true,
+  "insertionIndex" : 9
+}
