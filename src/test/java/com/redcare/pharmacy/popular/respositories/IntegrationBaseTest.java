@@ -27,7 +27,6 @@ public class IntegrationBaseTest {
 
 	@DynamicPropertySource
 	static void configurationProperties(DynamicPropertyRegistry registry) {
-		System.out.println("baseUrl:" + wireMockServer.baseUrl());
 		registry.add("com.redcare.pharmacy.github.feign-client-base-url", wireMockServer::baseUrl);
 
 	}
